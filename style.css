@@ -1,0 +1,416 @@
+*{
+    box-sizing: border-box;
+    padding:0;
+    margin: 0;
+}
+.header-wrapper{
+position: absolute;
+width: 1440px;
+height: 120px;
+left: 0px;
+top: 0px;
+background: #FFFFFF;
+}
+.header-title {
+position: absolute;
+width: 84px;
+height: 36px;
+left: 120px;
+top: 42px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 36px;
+color: #555555;
+}
+.nav-bar {
+list-style: none;
+text-decoration: none;
+display: flex;
+justify-content: space-around;
+margin-top: 48px;
+margin-left: 520px;
+}
+.click-sign {
+position: absolute;
+width: 132px;
+height: 48px;
+left: 1488px;
+top: 36px;
+background: #4A72FF;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+color: #FFFFFF;
+}
+.big-title {
+position: absolute;
+width: 514px;
+height: 168px;
+left: 120px;
+top: 200px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 56px;
+line-height: 84px;
+color: #373636;
+}
+.right-text {
+position: absolute;
+width: 606px;
+height: 120px;
+left: 714px;
+top: 224px;
+font-family: 'Work Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 40px;
+color: #555151;
+}
+.software-work {
+position: absolute;
+width: 1338px;
+height: 816.04px;
+left: 120px;
+top: 398.2px;
+z-index: 1;
+}
+.about-us {
+position: absolute;
+width: 1707px;
+height: 743px;
+left: 0px;
+top: 1062px;
+background: #0C1741;
+}
+.second-title {
+position: absolute;
+width: 408px;
+height: 120px;
+left: 120px;
+top: 1287px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 40px;
+line-height: 60px;
+color: #FFFFFF;
+}
+.service-text {
+position: absolute;
+width: 561px;
+height: 56px;
+left: 120px;
+top: 1423px;
+font-family: 'Work Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 28px;
+color: rgba(255, 255, 255, 0.6);
+}
+.blue-ball1{
+position: absolute;
+left: 120px;
+top: 1519px;
+}
+.circle-vector{
+position: absolute;
+left: 145px;
+top: 1545px;
+}
+.circle-vector2 {
+position: absolute;
+left: 140px;
+top: 1540px;
+}
+.dollar-vector {
+position: absolute;
+left: 154px;
+top: 1550px;
+}
+.blue-ball2 {
+position: absolute;
+left: 586px;
+top: 1519px;
+}
+.headphone {
+position: absolute;
+left: 609px;
+top: 1541px;
+}
+.blue-ball3 {
+position: absolute;
+left: 1016px;
+top: 1519px;
+}
+.check {
+position: absolute;
+left: 1046px;
+top: 1549px;
+}
+.check-vector {
+position: absolute;
+left: 1041px;
+top: 1543px;
+}
+.transparent-title {
+position: absolute;
+width: 198px;
+height: 30px;
+left: 120px;
+top: 1623px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 30px;
+color: #FFFFFF;
+}
+.transparent-text {
+position: absolute;
+width: 343px;
+height: 56px;
+left: 120px;
+top: 1669px;
+font-family: 'Work Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 28px;
+color: rgba(255, 255, 255, 0.6);
+}
+.Costumer-title{
+position: absolute;
+width: 228px;
+height: 30px;
+left: 586px;
+top: 1623px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 30px;
+color: #FFFFFF;
+}
+.costumer-text {
+position: absolute;
+width: 307px;
+height: 56px;
+left: 586px;
+top: 1669px;
+font-family: 'Work Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 28px;
+color: rgba(255, 255, 255, 0.6);
+}
+.safety-title {
+position: absolute;
+width: 162px;
+height: 30px;
+left: 1016px;
+top: 1623px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 30px;
+color: #FFFFFF;
+}
+.safety-text {
+position: absolute;
+width: 304px;
+height: 56px;
+left: 1016px;
+top: 1669px;
+font-family: 'Work Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 28px;
+color: rgba(255, 255, 255, 0.6);
+}
+.dark-bluebox {
+position: absolute;
+width: 641px;
+height: 484px;
+left: 120px;
+top: 1885px;    
+background: #0C1741;
+}
+.Services {
+position: absolute;
+width: 83px;
+height: 19px;
+left: 200px;
+top: 1965px;
+font-family: 'Work Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 19px;
+color: #E5E5E5;
+}
+.serve-title {
+position: absolute;
+width: 440px;
+height: 60px;
+left: 200px;
+top: 2013px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 40px;
+line-height: 60px;
+color: #FFFFFF;
+}
+.stick {
+position: absolute;
+width: 4px;
+height: 176px;
+left: 200px;
+top: 2115px;
+background: #FFFFFF;
+}
+.service-circle1 {
+position: absolute;
+left: 220px;
+top: 2115px;
+}
+.service-circle2 {
+position: absolute;
+left: 220px;
+top: 2180px;
+}
+.service-circle3 {
+position: absolute;
+left: 220px;
+top: 2250px;
+}
+.service-check1 {
+position: absolute;
+left: 228px;
+top: 2118px;
+}
+.service-check2 {
+position: absolute;
+left: 228px;
+top: 2185px;
+}
+.service-check3 {
+position: absolute;
+left: 228px;
+top: 2254px;
+}
+.service-text1{
+position: absolute;
+width: 320px;
+height: 28px;
+left: 268px;
+top: 2115px;
+font-family: 'Work Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 28px;
+color: #FFFFFF;
+}
+.service-text2 {
+position: absolute;
+width: 242px;
+height: 28px;
+left: 268px;
+top: 2181px;
+font-family: 'Work Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 28px;
+color: #FFFFFF;
+}
+.service-text3{
+position: absolute;
+width: 385px;
+height: 28px;
+left: 268px;
+top: 2252px;
+font-family: 'Work Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 28px;
+color: #FFFFFF;
+}
+.rightside-text1{
+position: absolute;
+width: 479px;
+height: 96px;
+left: 841px;
+top: 1947px;
+font-family: 'Work Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 32px;
+color: #555151;
+}
+.righrside-text2 {
+position: absolute;
+width: 479px;
+height: 192px;
+left: 841px;
+top: 2075px;
+font-family: 'Work Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 32px;
+color: #555151;
+}
+.click-seemore {
+position: absolute;
+width: 132px;
+height: 48px;
+left: 842px;
+top: 2315px;
+background: #4A72FF;
+font-family: 'Work Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 19px;
+color: #FFFFFF;
+}
+.features{
+position: absolute;
+width: 92px;
+height: 21px;
+left: 120px;
+top: 2449px;
+font-family: 'Work Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 21px;
+color: #4A72FF;
+}
+.features-title {
+position: absolute;
+width: 560px;
+height: 120px;
+left: 120px;
+top: 2489px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 40px;
+line-height: 60px;
+color: #373636;
+}
